@@ -64,7 +64,7 @@ public class DwdTransTransFinish {
                         DwdTransTransFinishBean finishBean = jsonObj.getObject("after", DwdTransTransFinishBean.class);
 
                         // 补充运输时常字段
-                        finishBean.setTransportTime(Long.parseLong(finishBean.getActualStartTime()) - Long.parseLong(finishBean.getActualEndTime()));
+                        finishBean.setTransportTime(Long.parseLong(finishBean.getActualEndTime()) - Long.parseLong(finishBean.getActualStartTime()));
 
                         // 将运输结束时间转换为毫秒-8小时 赋值给事件时间字段ts
                         finishBean.setTs(Long.parseLong(finishBean.getActualEndTime()) - 8 * 60 * 60 * 1000L);
@@ -94,6 +94,7 @@ public class DwdTransTransFinish {
         );
         // 处理后的数据写入kafka
         String sinkTopic = "tms_dwd_trans_trans_finish";
+        processDS.print(">>>");
         processDS.sinkTo(KafkaUtil.getKafkaSink(sinkTopic,args)).uid("kafka_sink");
 
         env.execute();
