@@ -157,6 +157,7 @@ public class DwsTradeOrgOrderDay {
                 ClickHouseUtil.getJdbcSink("insert into dws_trade_org_order_day_base values(?,?,?,?,?,?,?,?)")
         );
 
+
         env.execute();
 
     }

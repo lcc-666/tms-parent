@@ -31,7 +31,7 @@ public class BoundStatsController {
                 jsonB.append(",");
             }
         }
-        jsonB.append("], \"valueName\": \"分拣数\"}}");
+        jsonB.append("], \"valueName\": \"订单量\"}}");
         return jsonB.toString();
 
     }

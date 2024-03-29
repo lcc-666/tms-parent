@@ -149,6 +149,7 @@ public class DwdBoundRelevantApp {
         sortDS.sinkTo(KafkaUtil.getKafkaSink(sortTopic, args)).uid("sort_sink");
         outboundDS.sinkTo(KafkaUtil.getKafkaSink(outboundTopic, args)).uid("outbound_sink");
 
+
         env.execute();
     }
 }

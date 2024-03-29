@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tms-publisher:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="103e0919-e6ca-42a5-a009-c21fccf44142" name="Changes" comment="" />
+    <list default="true" id="103e0919-e6ca-42a5-a009-c21fccf44142" name="Changes" comment="各个省份的分拣数Controller接口">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tms_publisher_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/beans/CityAmountBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/controller/CityStatsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/mapper/CityStatsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/service/CityStatsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/service/impl/CityStatsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-publisher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tms-publisher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/controller/BoundStatsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-publisher/src/main/java/com/atguigu/tms/publisher/controller/BoundStatsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-publisher/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tms-publisher/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-publisher/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dwd/DwdBoundRelevantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dwd/DwdBoundRelevantApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dwd/DwdOrderRelevantApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dwd/DwdOrderRelevantApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws/DwsBoundOrgSortDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws/DwsBoundOrgSortDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws/DwsTradeOrgOrderDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws/DwsTradeOrgOrderDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/ods/OdsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/ods/OdsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/commom/TmsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/commom/TmsConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,16 +45,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="AnnotationType" />
+        <option value="Dockerfile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lcc-666&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dfc26624-8b89-4388-8d60-6a56a50b322a" />
+        <option name="url" value="https://github.com/lcc-666/tms-parent.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="/usr/share/maven" />
+        <option name="customMavenHome" value="/usr/share/maven" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="/usr/share/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -34,39 +89,80 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2YStkYS43eVo95ZKkcufhRONtf6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.DimApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwdBoundRelevantApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwdBoundRelevantApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwdOrderRelevantApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwsBoundOrgSortDay (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwsBoundOrgSortDay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DwsTradeOrgOrderDay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OdsApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.OdsApp (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.OdsApp (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.OdsApp.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tms-publisher [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tms-publisher [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tms-publisher [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tms-realtime [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.tms-realtime [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TmsPublisherApplication.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/chaoge/IdeaProjects/tms-parent/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chaoge/IdeaProjects/tms-parent/tms-publisher/target&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.tms.publisher.utils" />
       <recent name="com.atguigu.tms.realtime.beans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tms-publisher/target" />
       <recent name="$PROJECT_DIR$/tms-realtime/src/main/java/com/atguigu/tms/realtime/app/dws" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DwsBoundOrgSortDay">
-    <configuration name="DwdBoundRelevantApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DwsTradeOrgOrderDay">
+    <configuration name="DwdBoundRelevantApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dwd.DwdBoundRelevantApp" />
+      <module name="tms-realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dwd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DwdOrderRelevantApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dwd.DwdOrderRelevantApp" />
       <module name="tms-realtime" />
       <extension name="coverage">
         <pattern>
@@ -91,112 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DwsBoundOrgSortDay (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDay" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDaybak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDaybak" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDaybak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDaybak" />
-      <module name="tms-realtime" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.tms.realtime.app.dws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwsBoundOrgSortDaybak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsBoundOrgSortDaybak" />
+    <configuration name="DwsTradeOrgOrderDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.tms.realtime.app.dws.DwsTradeOrgOrderDay" />
       <module name="tms-realtime" />
       <extension name="coverage">
         <pattern>
@@ -221,15 +213,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TmsPublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tms-publisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.tms.publisher.TmsPublisherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="target/Dockerfile" type="docker-deploy" factoryName="dockerfile">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="tms-publisher/target/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DwsBoundOrgSortDay" />
-        <item itemvalue="Application.DwdBoundRelevantApp" />
-        <item itemvalue="Application.OdsApp" />
-        <item itemvalue="Application.DwsBoundOrgSortDay (2)" />
+        <item itemvalue="Application.DwdBoundRelevantApp (1)" />
+        <item itemvalue="Application.DwsTradeOrgOrderDay" />
+        <item itemvalue="Application.DwdOrderRelevantApp" />
         <item itemvalue="Application.DwsBoundOrgSortDay (1)" />
+        <item itemvalue="Application.OdsApp" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-5759c461" />
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-a39a91d7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -277,10 +292,227 @@
       <workItem from="1704179507001" duration="2291000" />
       <workItem from="1704245703928" duration="4524000" />
       <workItem from="1704265832277" duration="4772000" />
+      <workItem from="1704458629882" duration="2275000" />
+      <workItem from="1704520571570" duration="9939000" />
+      <workItem from="1704677940654" duration="4751000" />
+      <workItem from="1704682764402" duration="7762000" />
+      <workItem from="1704700324321" duration="451000" />
+      <workItem from="1704702509680" duration="50000" />
+      <workItem from="1704859048643" duration="59000" />
+      <workItem from="1706103397636" duration="223000" />
+      <workItem from="1706105558095" duration="609000" />
+      <workItem from="1707062005935" duration="18000" />
+      <workItem from="1708698797212" duration="164000" />
+      <workItem from="1708698975623" duration="72000" />
+      <workItem from="1708699061997" duration="665000" />
+      <workItem from="1708702132263" duration="3841000" />
+      <workItem from="1708789832220" duration="3316000" />
+      <workItem from="1708910536031" duration="610000" />
+      <workItem from="1708912843563" duration="2953000" />
+      <workItem from="1709003657097" duration="1880000" />
+      <workItem from="1709019494041" duration="2194000" />
+      <workItem from="1709033884821" duration="7755000" />
+      <workItem from="1709108502433" duration="2419000" />
+      <workItem from="1709175126383" duration="4524000" />
+      <workItem from="1709192998705" duration="2164000" />
+      <workItem from="1709386634174" duration="1906000" />
+      <workItem from="1709693693948" duration="2355000" />
+      <workItem from="1710906535785" duration="13000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringBoot环境初始化">
+      <option name="closed" value="true" />
+      <created>1704459692762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704459692762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="交易域统计mapper(获取某天下单总金额)">
+      <option name="closed" value="true" />
+      <created>1704522377111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704522377111</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加jackson依赖">
+      <option name="closed" value="true" />
+      <created>1704524729715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704524729715</updated>
+    </task>
+    <task id="LOCAL-00004" summary="配置ClickHouse驱动以及URL">
+      <option name="closed" value="true" />
+      <created>1704524844727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704524844728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="日期转换工具类">
+      <option name="closed" value="true" />
+      <created>1704524857942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704524857942</updated>
+    </task>
+    <task id="LOCAL-00006" summary="日期转换工具类">
+      <option name="closed" value="true" />
+      <created>1704524917862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704524917862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="交易域统计service接口">
+      <option name="closed" value="true" />
+      <created>1704525192803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704525192803</updated>
+    </task>
+    <task id="LOCAL-00008" summary="交易域统计接口实现类">
+      <option name="closed" value="true" />
+      <created>1704525205873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704525205873</updated>
+    </task>
+    <task id="LOCAL-00009" summary="拦截查询并返回结果">
+      <option name="closed" value="true" />
+      <created>1704525261690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704525261690</updated>
+    </task>
+    <task id="LOCAL-00010" summary="SpringBoot主程序">
+      <option name="closed" value="true" />
+      <created>1704531782332</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704531782332</updated>
+    </task>
+    <task id="LOCAL-00011" summary="中转域统计service接口类">
+      <option name="closed" value="true" />
+      <created>1704531796333</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704531796333</updated>
+    </task>
+    <task id="LOCAL-00012" summary="中转域统计service接口">
+      <option name="closed" value="true" />
+      <created>1704531807733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704531807733</updated>
+    </task>
+    <task id="LOCAL-00013" summary="获取某天各个省份的分拣数">
+      <option name="closed" value="true" />
+      <created>1704678564685</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704678564685</updated>
+    </task>
+    <task id="LOCAL-00014" summary="各个省份的分拣数实体类">
+      <option name="closed" value="true" />
+      <created>1704678586994</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704678586994</updated>
+    </task>
+    <task id="LOCAL-00015" summary="各个省份的分拣数Controller接口">
+      <option name="closed" value="true" />
+      <created>1704678608407</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704678608407</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c16385ff-afdb-477a-a821-5439c353ab22" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="c16385ff-afdb-477a-a821-5439c353ab22">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/chaoge/IdeaProjects/tms-parent/tms-publisher/src/main/java/com/atguigu/tms/publisher" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringBoot环境初始化" />
+    <MESSAGE value="交易域统计mapper(获取某天下单总金额)" />
+    <MESSAGE value="添加jackson依赖" />
+    <MESSAGE value="配置ClickHouse驱动以及URL" />
+    <MESSAGE value="日期转换工具类" />
+    <MESSAGE value="交易域统计service接口" />
+    <MESSAGE value="交易域统计接口实现类" />
+    <MESSAGE value="拦截查询并返回结果" />
+    <MESSAGE value="SpringBoot主程序" />
+    <MESSAGE value="中转域统计service接口类" />
+    <MESSAGE value="中转域统计service接口" />
+    <MESSAGE value="获取某天各个省份的分拣数" />
+    <MESSAGE value="各个省份的分拣数实体类" />
+    <MESSAGE value="各个省份的分拣数Controller接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="各个省份的分拣数Controller接口" />
   </component>
 </project>

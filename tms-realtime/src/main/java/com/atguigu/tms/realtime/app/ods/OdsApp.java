@@ -78,8 +78,8 @@ public class OdsApp {
         });
 
         //将数据写入Kafka
-
         keyedDS.sinkTo(KafkaUtil.getKafkaSink("tms_ods", sourceName + "_transPre", args))
                 .uid(option + "_ods_app_sink");
+        keyedDS.print("###");
     }
 }

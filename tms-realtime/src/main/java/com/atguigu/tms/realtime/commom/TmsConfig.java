@@ -10,5 +10,8 @@ public class TmsConfig {
     // clickhouse驱动
     public static final String CLICKHOUSE_DRIVER = "ru.yandex.clickhouse.ClickHouseDriver";
     // clickhouseURL
-    public static final String CLICKHOUSE_URL = "jdbc:clickhouse://hadoop102:8123/tms_realtime";
+//    public static final String CLICKHOUSE_URL = "jdbc:clickhouse://hadoop102:8123/tms_realtime";
+
+    public static final String CLICKHOUSE_URL = "jdbc:clickhouse://www.chaogezuishuai.top:8123/tms_realtime";
+
 }
